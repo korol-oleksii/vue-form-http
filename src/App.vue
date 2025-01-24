@@ -8,7 +8,7 @@
           <label for="type" class="label">Тип блоку</label>
           <select id="type" v-model="selectValue" ref="selectText" @change="updateSelectedText">
             <option value="title">Додати заголовок</option>
-            <option value="avatar">Додати фото</option>
+            <option value="avatar">Додати фото (посилання)</option>
             <option value="subtitle">Додати підзаголовок</option>
             <option value="description">Додати опис</option>
           </select>
